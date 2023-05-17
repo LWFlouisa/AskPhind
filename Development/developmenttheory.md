@@ -1,3 +1,5 @@
+These words were created by Phind to answer certain questions about AI development.
+
 ## Rules Based And AI Approaches
 
 Combining rule-based and AI-based practices can result in a more powerful and intelligent chatbot that can handle a larger number of questions, automate more complicated issues, and personalize responses. Here are some reasons why you might use a combination of rule-based and AI-based development practices to produce chatbots:
