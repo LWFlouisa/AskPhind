@@ -1,4 +1,4 @@
-## Format Of Markup Format
+## Format Of Neuromap Markdown Language
 This format is specifically designed for allowing the machine to code as much of the markdown format as possible.
 
 ~~~xml
