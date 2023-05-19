@@ -79,7 +79,7 @@ a.train(:nonsense, "quickly. An apple it is eaten", "word")
 a.train(:nonsense, "eaten quickly. An apple it is", "word")
 a.train(:nonsense, "is eaten quickly. An apple it", "word")
 
-b = "BIANCA: La cabine braun es azeoir pedecise."
+b = "An apple it is eaten quickly."
 
 result = a.classify(b)
 
