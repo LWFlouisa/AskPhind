@@ -7,7 +7,7 @@
     <conjucation><conjucation>
     <verb></verb>
     </adverb></adverb>
-  </phrase
+  </phrase>
 </grammar>
 ~~~
 What purpose do you suspect this hierarchical xml format may be used for?
