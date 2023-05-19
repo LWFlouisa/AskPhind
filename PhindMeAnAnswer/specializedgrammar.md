@@ -1,18 +1,70 @@
 # Session 1
 
 ## My Prompt
+I have three seperate sets of code:
+
 ~~~xml
 <grammar>
   <phrase>
-    <gender></gender>
-    <noun></noun>
-    <conjucation><conjucation>
-    <verb></verb>
-    </adverb></adverb>
+    <gender>An</gender>
+    <noun>apple</noun>
+    <conjucation>it is</conjucation>
+    <verb>eaten</verb>
+    <adverb>quickly.</adverb>
   </phrase>
 </grammar>
 ~~~
-What purpose do you suspect this hierarchical xml format may be used for?
+
+~~~ruby
+# Require and include gem.
+require 'rexml/document'
+include REXML
+
+# Read in XML document
+# xmlfile = File.new("grammar.xml")
+xmlfile = File.new("brains.xml")
+
+xmldoc = Document.new(xmlfile)
+
+# Get root elements.
+root = xmldoc.root
+
+# Listen to a form of grammar.
+xmldoc.elements.each("grammar/phrase") { 
+  |e| print e.attributes["context"] + " "
+}
+
+# This will output the text of the user introduction.
+xmldoc.elements.each("grammar/phrase/gender")      { |e| print e.text + " " }
+xmldoc.elements.each("grammar/phrase/noun")        { |e| print e.text + " " }
+xmldoc.elements.each("grammar/phrase/adjective")   { |e| print e.text + " " }
+xmldoc.elements.each("grammar/phrase/conjunction") { |e| print e.text + " " }
+xmldoc.elements.each("grammar/phrase/verb")        { |e| print e.text + " " }
+xmldoc.elements.each("grammar/phrase/adverb")      { |e| print e.text       }
+
+~~~
+
+~~~ruby
+require "naive_bayes"
+
+a = NaiveBayes.new(:sense, :nonsense)
+
+## Sense
+a.train(:sense, "An apple it is eaten quickly.", "word")
+
+## Nonsense
+a.train(:nonsense, "quickly. An apple it is eaten", "word")
+a.train(:nonsense, "eaten quickly. An apple it is", "word")
+a.train(:nonsense, "is eaten quickly. An apple it", "word")
+
+b = "BIANCA: La cabine braun es azeoir pedecise."
+
+result = a.classify(b)
+
+print "That makes #{result[0]}."
+~~~
+
+if you were to analyze this without context, what would be your best case for the purpose for this?
 
 ## Phind Says
 The given hierarchical XML format appears to be used for defining a grammar structure, which could be used in natural language processing or speech recognition systems. The structure includes elements like <gender>, <noun>, <conjucation>, <verb>, and <adverb> that would help in forming phrases and understanding the different components of a sentence. w3.org provides examples of XML Form grammars used for different languages, such as Swedish and Chinese, to define rules and structures for speech recognition.
