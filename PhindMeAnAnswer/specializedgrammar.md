@@ -15,55 +15,6 @@ I have three seperate sets of code:
 </grammar>
 ~~~
 
-~~~ruby
-# Require and include gem.
-require 'rexml/document'
-include REXML
-
-# Read in XML document
-# xmlfile = File.new("grammar.xml")
-xmlfile = File.new("brains.xml")
-
-xmldoc = Document.new(xmlfile)
-
-# Get root elements.
-root = xmldoc.root
-
-# Listen to a form of grammar.
-xmldoc.elements.each("grammar/phrase") { 
-  |e| print e.attributes["context"] + " "
-}
-
-# This will output the text of the user introduction.
-xmldoc.elements.each("grammar/phrase/gender")      { |e| print e.text + " " }
-xmldoc.elements.each("grammar/phrase/noun")        { |e| print e.text + " " }
-xmldoc.elements.each("grammar/phrase/adjective")   { |e| print e.text + " " }
-xmldoc.elements.each("grammar/phrase/conjunction") { |e| print e.text + " " }
-xmldoc.elements.each("grammar/phrase/verb")        { |e| print e.text + " " }
-xmldoc.elements.each("grammar/phrase/adverb")      { |e| print e.text       }
-
-~~~
-
-~~~ruby
-require "naive_bayes"
-
-a = NaiveBayes.new(:sense, :nonsense)
-
-## Sense
-a.train(:sense, "An apple it is eaten quickly.", "word")
-
-## Nonsense
-a.train(:nonsense, "quickly. An apple it is eaten", "word")
-a.train(:nonsense, "eaten quickly. An apple it is", "word")
-a.train(:nonsense, "is eaten quickly. An apple it", "word")
-
-b = "BIANCA: La cabine braun es azeoir pedecise."
-
-result = a.classify(b)
-
-print "That makes #{result[0]}."
-~~~
-
 if you were to analyze this without context, what would be your best case for the purpose for this?
 
 ## Phind Says
