@@ -66,16 +66,24 @@ xmldoc.elements.each("grammar/phrase/adverb")      { |e| print e.text       }
 
 ~~~
 
-~~~md
-<table>
-  <tr>
-    <td>An</td>
-    <td>apple</td>
-    <td>it is</td>
-    <td>eaten</td>
-    <td>quickly.</td>
-  </tr>
-</table>
+~~~ruby
+require "naive_bayes"
+
+a = NaiveBayes.new(:sense, :nonsense)
+
+## Sense
+a.train(:sense, "An apple it is eaten quickly.", "word")
+
+## Nonsense
+a.train(:nonsense, "quickly. An apple it is eaten", "word")
+a.train(:nonsense, "eaten quickly. An apple it is", "word")
+a.train(:nonsense, "is eaten quickly. An apple it", "word")
+
+b = "BIANCA: La cabine braun es azeoir pedecise."
+
+result = a.classify(b)
+
+print "That makes #{result[0]}."
 ~~~
 
 if you were to analyze this without context, what would be your best case for the purpose for this?
