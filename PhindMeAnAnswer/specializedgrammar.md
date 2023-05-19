@@ -91,7 +91,8 @@ if you were to analyze this without context, what would be your best case for th
 ## Phind Says
 The given code snippets can be divided into three parts:
 
-An XML structure representing a grammar with phrases and their respective parts. developer.com
-A Ruby script that uses the REXML library to parse the XML file and extract the text content of each element in the grammar structure. developer.com, xml.com
-A Ruby script that uses the Naive Bayes algorithm to classify a given text as either "sense" or "nonsense" based on training data. iro.umontreal.ca
-The purpose of this code, without context, seems to be to parse an XML file containing grammar phrases, extract the text content of the phrases, and then use a Naive Bayes classifier to determine whether a given text is sensible or nonsensical based on the extracted grammar structure. The classifier is trained with sample sentences to make this determination.
+* An XML structure representing a grammar with phrases and their respective parts. developer.com
+* A Ruby script that uses the REXML library to parse the XML file and extract the text content of each element in the grammar structure. developer.com, xml.com
+* A Ruby script that uses the Naive Bayes algorithm to classify a given text as either "sense" or "nonsense" based on training data. iro.umontreal.ca
+
+  The purpose of this code, without context, seems to be to parse an XML file containing grammar phrases, extract the text content of the phrases, and then use a Naive Bayes classifier to determine whether a given text is sensible or nonsensical based on the extracted grammar structure. The classifier is trained with sample sentences to make this determination.
