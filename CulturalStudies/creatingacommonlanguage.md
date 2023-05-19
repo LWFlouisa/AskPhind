@@ -1,3 +1,8 @@
+# Things To Note When Reading
+I didn't indicate to Phind that this in regards to a fictional language I'm working on for a science fiction setting, because I felt like this would create bias in the algorithm, and I've already had enough issues with people encouraging me not to work on my conlang.
+
+Below is my prompts and its assessment of a common language between French and Japanese speakers.
+
 ## My Prompt
 I've created a Naive Bayes detection trainer for five levels of sense to nonsense. Assuming that the above trainer trains Naive Bayes on a dialect of French rather than Arabic:
 
