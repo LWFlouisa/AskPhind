@@ -1,4 +1,15 @@
 ## My Prompt
+~~~
+<mindmap>
+  <title>
+  </title>
+  <date>
+  </date>
+  <time>
+  </time>
+</mindmap>
+~~~
+How do you think this xml format is used?
 
 ## Phind Says
 The XML format you provided is a markup language that is used for structuring and organizing data in a hierarchical format. It is commonly used for exchanging data between different systems and applications. There are various applications that use XML, including web services, RSS feeds, and configuration files.
