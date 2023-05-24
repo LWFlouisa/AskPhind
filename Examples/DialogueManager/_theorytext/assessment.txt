@@ -1,0 +1,7 @@
+a.train(:sense, 'Le pere ez grande.', 'word')
+a.train(:sense, 'Le pere ez grande.', 'word')
+a.train(:sense, 'Le pere ez grande.', 'word')
+a.train(:sense, 'Le pere ez grande.', 'word')
+a.train(:sense, 'Le pere ez grande.', 'word')
+a.train(:sense, 'Le pere ez grande.', 'word')
+a.train(:sense, 'Le pere ez grande.', 'word')
