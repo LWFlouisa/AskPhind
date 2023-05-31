@@ -1,3 +1,6 @@
+## Concise Summary
+This short story is a part of a cyberpunk alternate history that takes place in a fragmented United States controlled by France and Japan. The protagonist, Madomoazele, is struggling with memory loss and desensitization to violence. She receives a porcelain doll that looks like her missing sister and dreams of being a doll and being executed by guillotine. Though she wakes up feeling weighed down by life, she finds comfort in her black cat and in holding hands with her sister doll. This story is one of several in the cyberpunk genre that explores alternate histories and dystopian futures, often with a focus on technology and its effects on society.
+
 ## Phinds Summary
 In a prologue based on the same setting as the previous story, this flash fiction seems to be about a person with voices in their mind who is wandering in the dark and seems to have a fascination with decapitation. They fantasize about a girl from France and wine fields, and biting her tender neck. The story is filled with imagery of tumbling clogs, midnight clouds, and raindrops on the floor. The protagonist hears thunder claps and a rumble in the distance before waking up in the hospital, suggesting they may have been involved in some kind of protest or attack that led to their hospitalization.
 
