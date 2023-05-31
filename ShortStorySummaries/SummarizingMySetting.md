@@ -33,3 +33,8 @@ Regarding the rebels having their own dialectical tongue that makes them harder 
 
 ## If these look like stories that may interest you.
 You can find my old science fiction and fantasy here: [Writing Archive](https://lwflouisa.codeberg.page/WritingArchive/)
+
+### For my webcomic
+You can find my webcomic here: [Uploaded Fairy](https://lwflouisa.github.io/UploadedFairy/)
+
+This is set before the historical timelime diverged from 2017 onwards.
