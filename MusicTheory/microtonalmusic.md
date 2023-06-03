@@ -104,3 +104,16 @@ How about a custom controller with a limited set of microtonal sounds? Ex. A spe
 
 ## Phind Says
 Creating a custom controller with a limited set of microtonal sounds could be an option for experimenting with microtonal scales. According to [Source 13], the MISUCO app offers an Open Sound Control/MIDI controller with a built-in synth that allows you to explore microtonal tuning in a way that was not available before. The app enables you to translate arbitrary frequencies into MIDI note numbers and pitch values and can also be used as a versatile touchscreen keyboard and controller. With the MISUCO software, you can play with microtonality by tuning each note on an octave in cent steps and blurring the frequency space between the scale to play the frequencies between, like pulling a string of an instrument. If you don't want to use any external equipment and software, the app has a simple but powerful built-in synthesizer. Therefore, using a custom controller with a limited set of microtonal sounds could be an option for experimenting with microtonal scales.
+
+
+## My Prompt
+How would you do a quarter tone variation of Hypophrygian music?
+
+## Phind Says
+To create a quarter tone variation of Hypophrygian music, you would need to divide the octave into 24 equal parts using equal temperament [1]. Quarter tones are a pitch halfway between the usual notes of a chromatic scale or an interval about half as wide as a semitone [3]. Thus, quarter tones divide the octave by 50 cents each, and have 24 different pitches. To achieve this, you would have to tune each note in the Hypophrygian mode to one of these 24 pitches [1].
+
+One approach to creating quarter tones would be to use the 24-tone equal temperament (24-TET) system, which is an equal-tempered tuning system that divides the octave into 24 equal steps [3]. In this system, the quarter tone is 50 cents, and is the smallest step. A semitone is made of two steps, and three steps make a three-quarter tone or neutral second, half of a minor third. The 8-TET scale is composed of three-quarter tones [3].
+
+Another approach would be to use just intonation tuning systems. In just intonation, the quarter tone can be represented by the septimal quarter tone, 36:35 (48.77 cents), or by the undecimal quarter tone (i.e. the thirty-third harmonic), 33:32 (53.27 cents), approximately half the semitone of 16:15 or 25:24 [3]. Composer Ben Johnston uses a small "7" as an accidental to indicate a note is lowered 49 cents, or an upside down "7" to indicate a note is raised 49 cents, or a ratio of 36:35. Johnston uses an upward and downward arrow to indicate a note is raised or lowered by a ratio of 33:32, or 53 cents [3].
+
+To apply this knowledge to Hypophrygian music, you would need to tune each note in the mode to one of the 24 pitches in the 24-TET system or use just intonation tuning systems [1] [3]. When you have done this, you will have created a quarter tone variation of Hypophrygian music.
