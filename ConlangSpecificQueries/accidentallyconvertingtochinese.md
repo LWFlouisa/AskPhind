@@ -40,4 +40,23 @@ To achieve this, you can use the following approaches:
 
 5. **Transfer learning**: Use pre-trained language models like BERT, GPT, or other transformer-based models for your creole language. Fine-tune these models on your dataset to better understand the context and relationships between words in the sentences.
 
-By using these approaches, you can train your model to handle the mix of French and Japanese words in your creole language dataset more effectively, and avoid issues related to incorrect language recognition or conversion. 
+By using these approaches, you can train your model to handle the mix of French and Japanese words in your creole language dataset more effectively, and avoid issues related to incorrect language recognition or conversion.
+
+
+## My Third Prompt
+Can GPT suggest additional words to situations you didn't anticipate yet? There is still a lot of fleshing out I need to do for things like Hybrid Compound words: Ex. Quatrekoma, or a type of 4-Frame manga that is tailored to the specifics of American French dialects.
+
+## Phind Says
+Yes, GPT can suggest additional words or phrases that were not anticipated during training, as it has the ability to generate new text based on the patterns it has learned from its training data. While GPT-2 and GPT-3 are primarily trained on sub-word units like roots and affixes, they can still generate new words or phrases by combining these sub-word units in novel ways [Source 6](https://www.reddit.com/r/LanguageTechnology/comments/j5m5jq/how_can_gpt2_gpt3_possibly_come_up_with_new_words/).
+
+To generate new words or phrases related to hybrid compound words like "Quatrekoma," you can fine-tune GPT on a dataset containing examples of such words and their usage. This will help GPT learn the patterns and structures of these hybrid compound words, enabling it to generate new examples.
+
+You can use the following approach to generate new words or phrases related to hybrid compound words:
+
+1. Fine-tune GPT on a dataset containing examples of hybrid compound words and their usage, along with any additional relevant context or linguistic patterns.
+
+2. Use the fine-tuned GPT model to generate new words or phrases related to hybrid compound words. You can do this by providing a prompt or context that includes examples of hybrid compound words and their usage.
+
+3. Evaluate the generated words or phrases to ensure they adhere to the desired linguistic patterns and structures.
+
+By fine-tuning GPT on a dataset containing examples of hybrid compound words and their usage, you can leverage the model's ability to generate new words or phrases that were not anticipated during training. This can help you create new hybrid compound words that are tailored to the specifics of American French dialects or any other linguistic patterns you're working with. 
